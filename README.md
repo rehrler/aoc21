@@ -32,3 +32,11 @@ Hints:
     - add new value at position
     - check if drawn number exists on board
     - check if any row or column is completely checked
+
+### Day 5
+
+[aoc21_5.java](src/ch/aoc21/aoc21_5.java)
+
+Hints:
+
+- loop over point between start and end points, not over area. would be super slow.
