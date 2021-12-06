@@ -40,3 +40,11 @@ Hints:
 Hints:
 
 - loop over point between start and end points, not over area. would be super slow.
+
+### Day 6
+
+[aoc21_6.java](src/ch/aoc21/aoc21_6.java)
+
+Hints:
+
+- count fishes at stages and don't track the fish as an object. critical memory.
