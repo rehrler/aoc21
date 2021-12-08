@@ -4,7 +4,7 @@
 
 ### Day 1
 
-[aoc21_1.java](src/ch/aoc21/aoc21_1.java)
+[aoc21_1.java](src/main/java/ch/aoc21/aoc21_1.java)
 
 Hints:
 
@@ -12,11 +12,11 @@ Hints:
 
 ### Day 2
 
-[aoc21_2.java](src/ch/aoc21/aoc21_2.java)
+[aoc21_2.java](src/main/java/ch/aoc21/aoc21_2.java)
 
 ### Day 3
 
-[aoc21_3.java](src/ch/aoc21/aoc21_3.java)
+[aoc21_3.java](src/main/java/ch/aoc21/aoc21_3.java)
 
 Hints:
 
@@ -24,7 +24,7 @@ Hints:
 
 ### Day 4
 
-[aoc21_4.java](src/ch/aoc21/aoc21_4.java)
+[aoc21_4.java](src/main/java/ch/aoc21/aoc21_4.java)
 
 Hints:
 
@@ -35,7 +35,7 @@ Hints:
 
 ### Day 5
 
-[aoc21_5.java](src/ch/aoc21/aoc21_5.java)
+[aoc21_5.java](src/main/java/ch/aoc21/aoc21_5.java)
 
 Hints:
 
@@ -43,8 +43,24 @@ Hints:
 
 ### Day 6
 
-[aoc21_6.java](src/ch/aoc21/aoc21_6.java)
+[aoc21_6.java](src/main/java/ch/aoc21/aoc21_6.java)
 
 Hints:
 
 - count fishes at stages and don't track the fish as an object. critical memory.
+
+### Day 7
+
+[aoc21_7.java](src/main/java/ch/aoc21/aoc21_7.java)
+
+Hints:
+
+- can be solved with brute force or optimization problem
+
+### Day 8
+
+[aoc21_8.java](src/main/java/ch/aoc21/aoc21_8.java)
+
+Hints:
+
+- See a combination of chars as a set and use set operations (intersect, difference)
