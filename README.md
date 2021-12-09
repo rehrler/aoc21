@@ -64,3 +64,11 @@ Hints:
 Hints:
 
 - See a combination of chars as a set and use set operations (intersect, difference)
+
+### Day 9
+
+[aoc21_9.java](src/main/java/ch/aoc21/aoc21_9.java)
+
+Hints:
+
+- Again, the holy power of recursion :zap:
