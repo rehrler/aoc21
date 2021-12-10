@@ -72,3 +72,11 @@ Hints:
 Hints:
 
 - Again, the holy power of recursion :zap:
+
+### Day 10
+
+[aoc21_10.java](src/main/java/ch/aoc21/aoc21_10.java)
+
+Hints:
+
+- Use a stack for opening brackets
