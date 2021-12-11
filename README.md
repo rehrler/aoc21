@@ -80,3 +80,11 @@ Hints:
 Hints:
 
 - Use a stack for opening brackets
+
+### Day 11
+
+[aoc21_11.java](src/main/java/ch/aoc21/aoc21_11.java)
+
+Hints:
+
+- check if you have already visited a flashing octopus :octopus:
