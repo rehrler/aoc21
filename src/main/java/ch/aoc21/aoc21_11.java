@@ -12,11 +12,11 @@ public class aoc21_11 {
         String data_path = "data/aoc21_11.txt";
 
         OctopusSim octopusSim = new OctopusSim(load_field(data_path));
+
         Long flashes = octopusSim.sim(100);
         System.out.println("Part1; found " + flashes + " in 100 sim steps.\n");
 
-        octopusSim = new OctopusSim(load_field(data_path));
-        int sim_step = octopusSim.get_stop_sim();
+        int sim_step = octopusSim.get_stop_sim() + 100;
         System.out.println("Part2; found all flashes at sim step: " + sim_step + ".\n");
 
         System.out.println("done.");
@@ -51,9 +51,9 @@ class OctopusSim {
     private final int[][] octopus_field;
 
     public OctopusSim(int[][] oct_field) {
-        octopus_field = oct_field;
-        row_dim = oct_field.length;
-        col_dim = oct_field[0].length;
+        octopus_field = oct_field.clone();
+        row_dim = octopus_field.length;
+        col_dim = octopus_field[0].length;
     }
 
     public Long sim(int duration) {
@@ -127,11 +127,11 @@ class OctopusSim {
     }
 
     public int get_stop_sim() {
-        int sim_step=1;
+        int sim_step = 1;
         while (true) {
             increase_field(1);
             Long nb_flashes = check_flashes();
-            if (nb_flashes==100L) {
+            if (nb_flashes == 100L) {
                 break;
             }
             sim_step++;

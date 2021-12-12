@@ -88,3 +88,7 @@ Hints:
 Hints:
 
 - check if you have already visited a flashing octopus :octopus:
+
+### Day 12
+
+[aoc21_12.java](src/main/java/ch/aoc21/aoc21_12.java)
