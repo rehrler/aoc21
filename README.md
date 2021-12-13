@@ -92,3 +92,15 @@ Hints:
 ### Day 12
 
 [aoc21_12.java](src/main/java/ch/aoc21/aoc21_12.java)
+
+Hints:
+
+- check [DFS](https://en.wikipedia.org/wiki/Depth-first_search)
+
+### Day 13
+
+[aoc21_13.java](src/main/java/ch/aoc21/aoc21_13.java)
+
+Hints:
+
+- think about what a fold means to an array and how you can optimize this.
