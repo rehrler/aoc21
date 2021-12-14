@@ -104,3 +104,11 @@ Hints:
 Hints:
 
 - think about what a fold means to an array and how you can optimize this.
+
+### Day 14
+
+[aoc21_14.java](src/main/java/ch/aoc21/aoc21_14.java)
+
+Hints:
+
+- similar to day 6
