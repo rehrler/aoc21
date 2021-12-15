@@ -112,3 +112,11 @@ Hints:
 Hints:
 
 - similar to day 6
+
+### Day 15
+
+[aoc21_15.java](src/main/java/ch/aoc21/aoc21_15.java)
+
+Hints:
+
+- [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
