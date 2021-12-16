@@ -120,3 +120,7 @@ Hints:
 Hints:
 
 - [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+
+### Day 16
+
+[aoc21_16.java](src/main/java/ch/aoc21/aoc21_16.java)
