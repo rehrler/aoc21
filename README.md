@@ -136,3 +136,7 @@ y[n] = n\cdot v_y[0] + \frac{n\cdot(n-1)}{2}
 x[n] = \begin{cases} n\cdot v_y[0] + \frac{n\cdot(n-1)}{2} & n<v_x[0] \\
 v_y^2[0]-\frac{v_x[0]\cdot(v_x[0]-1)}{2} & n\geq v_x[0] \end{cases}
 ```
+
+### Day 18
+
+[aoc21_18.java](src/main/java/ch/aoc21/aoc21_18.java)
