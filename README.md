@@ -148,3 +148,11 @@ v_y^2[0]-\frac{v_x[0]\cdot(v_x[0]-1)}{2} & n\geq v_x[0] \end{cases}
 Hints:
 
 - use absolute vector distance to check whether a set overlaps or not
+
+### Day 20
+
+[aoc21_20.java](src/main/java/ch/aoc21/aoc21_20.java)
+
+Hints:
+
+- think about what happens with the infinite pixel with your enhancing algorithm.
